@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx aoe_technology_radar-buildRadar",
+    "build": "npx cross-env REACT_APP_RADAR_NAME=\"jora.dev Skills Radar\" aoe_technology_radar-buildRadar",
     "postbuild": "npm run generateJson",
     "prebuild:static": "npm run build",
     "build:static": "npx aoe_technology_radar-createStaticFiles",

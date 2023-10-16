@@ -1,7 +1,8 @@
 ---
 title:      "Docker"
-ring:       assess
-quadrant:   platforms-and-aoe-services
+ring:       adopt
+quadrant:   ops
+tags:       [green, black]
 ---
 
 Docker is currently the most-used solution for creating and managing container-based infrastructures and deployments.
