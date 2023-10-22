@@ -11,71 +11,56 @@
         "headline": "Introduction",
         "values": [
           "Technology is moving fast and new technologies and innovations appear continuously.",
-          "It's essential for a development and technology company such as AOE to constantly improve and keep track with the latest useful innovations. It is important to openly look for innovations and new technologies and to question established technologies and methods every now and then.",
-          "But, it is also important to wisely choose which technologies to use in our daily work and in the different projects we are carrying out. As we all know: There is no silver bullet."
-        ]
-      },
-      {
-        "headline": "What is the AOE Technology Radar",
-        "values": [
-          "The Tech Radar is an overview of different technologies - from languages, frameworks, tools and patterns to platforms - that we consider \"new or mentionable\". The radar therefore doesn't provide an overview of all established technologies - but it focuses on items that have recently gained in importance or changed. Items that have been on the radar in previous versions are not listed on the homepage, but they are still available in the complete overview and in the search."
-        ]
-      },
-      {
-        "headline": "How it is created",
-        "values": [
-          "The items in the technology radar are raised by the different teams and therefore a lot of the items are related to the work and challenges the teams face in the different projects. In fact, we don't include anything on the radar that we haven't tried ourselves at least once.",
-          "There have been a lot of valuable discussions in different expert groups about the classification and details of each of technologies and innovations. And the result of all this can be found in the latest technology radar."
+          "Throughout my journey in this industry over the years, I've had the opportunity to explore a wide array of technologies and tools. Some technologies become obsolete and disappear in history, while others I've bid farewell to as my career took new directions. Among the vast landscape of tech, there's a core set of technologies I've come to master with confidence, wielding them to develop software and operate it for robust production systems. On the flip side, I use some other technologies rarely, or only a few times for simple pet or educational projects. Over time, it becomes relevant for myself to observe my current technology stack, reflecting on the arsenal of knowledge I possess now, as well as the various technologies I've explored at some point along the way.",
+          "Let's track it out with me!"
         ]
       },
       {
         "headline": "How should it be used",
         "values": [
-          "The radar acts as an overview of technologies that we think everyone in the teams should currently know about.",
-          "Its goal is to act as a guide and inspiration for the daily work in the teams. Its purpose is also to provide helpful information and a bird's-eye perspective - so that decisions can be taken with a much deeper understanding of the subject matter. This results in more informed and coordinated decisions.",
-          "We also hope that developers outside of AOE find the information in our technology overview inspirational.",
-          "We group or categorize the items in 4 quadrants - (sometimes, when it's not 100% clear where a item belongs, we choose the best fit)."
+          "The radar acts as an overview of technologies that I have used more than once.",
+          "I group or categorize the items in 4 quadrants - (sometimes, when it's not 100% clear where a item belongs, so I choose the best fit)."
         ]
       }
     ],
     "quadrants": [
       {
-        "name": "Languages & Frameworks",
-        "description": "We've placed development languages (such as Scala or Golang) here, as well as more low-level development frameworks (such as Play or Symfony), which are useful for implementing custom software of all kinds."
+        "name": "Backend Dev & Databases",
+        "description": "I've placed backend development languages and frameworks (such as Java or Spring Framework) here. There are also storage systems and other integral part of tools for backend development such as Swagger or Test utils"
+      },
+      {
+        "name": "WebDev & Frontent",
+        "description": "Here I put information on tools for building UI and simple websites. You can find here frontend frameworks as well as different useful CMS and headless-CMS tools."
+      },
+      {
+        "name": "Operations",
+        "description": "This quadrant clusters technologies around the operation of software and infrastructure related platforms, tools and services."
       },
       {
         "name": "Tools",
-        "description": "Here we put different software tools - from small helpers to bigger software projects"
-      },
-      {
-        "name": "Methods & Patterns",
-        "description": "Patterns are so important, and a lot of them are valid for a long time (compared to some tools or frameworks). So, this is the category where we put information on methods and patterns concerning development, continuous x, testing, organization, architecture, etc."
-      },
-      {
-        "name": "Platforms & Operations",
-        "description": "This quadrant clusters technologies around the operation of software and infrastructure related platforms, tools and services."
+        "description": "Here I put common software tools and small helpers. Also this quadrant is used to place uncategorized technologies."
       }
     ],
     "rings": [
       {
         "name": "Adopt",
-        "description": "We can clearly recommend this technology. We have used it for longer period of time in many teams and it has proven to be stable and useful."
+        "description": "I have used this technology for longer period of time in many projects and I have confidence in it."
       },
       {
         "name": "Trial",
-        "description": "We have used it with success and recommend to have a closer look at the technology in this ring. The goal of items here is to look at them more closely, with the goal to bring them to the adopt level."
+        "description": "Here I have placed technologies that I started using recently or are actively studying. Or technologies that were used only in pet projects."
       },
       {
-        "name": "Assess",
-        "description": "We have tried it out and we find it promising. We recommend having a look at these items when you face a specific need for the technology in your project."
+        "name": "Rarely",
+        "description": "This quadrant contains technologies that I have used either rarely, or once, or for a long time ago(so much so that my knowledge may lose its relevance, but at the same time I remain at a low threshold for entering it again). Also I think that I do not have serious experience and knowledge of the pitfalls of this technology."
       },
       {
         "name": "Hold",
-        "description": "This category is a bit special. Unlike the others, we recommend to stop doing or using something. That does not mean that they are bad and it often might be ok to use them in existing projects. But we move things here if we think we shouldn't do them anymore - because we see better options or alternatives now."
+        "description": "This category is a bit special. It contains a set of technologies that I stopped using and studying for various reasons."
       }
     ],
     "sourcecodeLink": {
-      "href": "https://github.com/dyadyaJora/radar",
+      "href": "https://github.com/dyadyaJora/radar-jora-dev",
       "name": "My Skills Radar on GitHub",
       "description": ""
     }
